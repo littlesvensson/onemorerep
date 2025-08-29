@@ -10,7 +10,6 @@ type EstimateResponse struct {
     OneRM   float64            `json:"one_rm"`
     Table   map[string]float64 `json:"rep_table"`
     Formula string             `json:"formula"`
-    Notes   []string           `json:"notes,omitempty"`
 }
 
 type ErrResp struct {  
